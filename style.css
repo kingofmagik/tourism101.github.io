@@ -1,0 +1,23 @@
+#icons .btn {
+    display: block;
+    margin: auto;
+}
+
+.nature-gallery .nature-gallery-title {
+    text-allign: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card .card-body {
+    color: white;
+}
+
+.card .card-body .card-text{
+    margin-top: 10px;
+    display: none;
+}
+
+.card:hover .card-body .card-text {
+    display: block;
+}

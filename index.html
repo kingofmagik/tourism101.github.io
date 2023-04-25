@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Guide | SG</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="title-text">
+            <div class="col-md-12">
+                <h1 class="text-center m-3" style="color: #5c81ed;">Welcome to Singapore!</h1>
+            </div>
+        </div>
+
+        <!--Second row-->
+        <div class="row mt-5" id="main-picture">
+            <div class="col-md-12">
+                <div id="landmark-carousel" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="webdevassets/landmarks/landmark_1.jpg" width="100%">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="webdevassets/landmarks/landmark_2.jpg" width="100%">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="webdevassets/landmarks/landmark_3.jpg" width="100%">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--Carousel controls-->
+                    <a class="carousel-control-prev" href="#landmark-carousel" data-slide="prev">
+                        <span class="fa fa-chevron-left"></span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#landmark-carousel" data-slide="next">
+                        <span class="fa fa-chevron-right"></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Third row-->
+        <div class="row mt-5" id="icons">
+            <div class="col-md-4 text-center">
+                <h4>Attractions</h4>
+                <img src="webdevassets/icons/attraction.png" style="width: 100px;" class="m-3">
+                <a href="https://www.tripadvisor.com.sg/
+                Attractions-g294265-Activities-Singapore.html" target="_blank" class="btn btn-info" style="width: 180px;">Visit Our Attractions</a>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h4>Hotel</h4>
+                <img src="webdevassets/icons/hotel.png" style="width: 100px;" class="m-3">
+                <a href="https://www.agoda.com/en-sg/country/singapore.html?cid=1729675&tag=240682_ae04376884622f53a3e9bd62df524bd6" target="_blank" class="btn btn-info" style="width: 180px;">Book a Hotel</a>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h4>Food</h4>
+                <img src="webdevassets/icons/food.png" style="width: 100px;" class="m-3">
+                <a href="https://migrationology.com/singapore-food/" target="_blank" class="btn btn-info" style="width: 180px;">Explore SG Food</a>
+            </div>
+        </div>
+
+        <!--4th Row-->
+        <div class="row mt-5" id="other-items">
+            <div class="col-md-6 text-center" style="background-color: #5c81ed;">
+                <h2> Visit Sentosa </h2>
+                <img src="webdevassets/landmarks/sentosa.jpg" style="width: 100%;" class="p-3">
+                <a href="https://www.sentosa.com.sg" target="_blank" class="btn btn-info"> Find Out More</a>
+            </div>
+
+            <div class="col-md-6 text-center" style="background-color: cyan;">
+                <h2> Explore SG </h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.19036231432!2d103.70416352796343!3d1.3143393825514447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52abf5c4!2sSingapore!5e0!3m2!1sen!2ssg!4v1681217641940!5m2!1sen!2ssg" width="80%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!--5th Row-->
+        <div class="row py-3" id="nature">
+            <div class="nature-gallery">
+                <h2 class="nature-gallery-title"> Nature Gallery </h2>
+
+                <div class="card-deck">
+
+                    <!--First card-->
+                    <div class="card bg-danger">
+                        <img class="card-img-top" src="webdevassets/nature/vanda_miss_joaquim.jpg">
+                        <div class="card-body">
+                            <h4 class="card-tittle"> Vanda Miss Joaquim </h4>
+                            <p class="card-text"> This is SG's National Flower. </p>
+                        </div>
+                    </div>
+
+                    <!--Second card-->
+                    <div class="card bg-info">
+                        <img class="card-img-top" src="webdevassets/nature/otter.jpg">
+                        <div class="card-body">
+                            <h4 class="card-tittle"> Smooth-Coated Otters </h4>
+                            <p class="card-text"> They're critically endangered! </p>
+                        </div>
+                    </div>
+
+                    <!--Third card-->
+                    <div class="card bg-success">
+                        <img class="card-img-top" src="webdevassets/nature/mangrove.jpg">
+                        <div class="card-body">
+                            <h4 class="card-tittle"> Mangroves </h4>
+                            <p class="card-text"> A unique species of tree. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
